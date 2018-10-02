@@ -5,17 +5,12 @@
 
 int main(int argc, char *argv[]) {
 	
-	int x;
-	int y;
+	int sec;
 	
-	printf("input two integer:");
-	scanf("%i %i", &x, &y);
+	printf("input the second:");
+	scanf("%i", &sec);
 	
-	printf("+ result is: %i\n", x+y);
-	printf("- result is: %i\n", x-y);
-	printf("* result is: %i\n", x*y);
-	printf("/ result is: %i\n", x/y);
-	printf("%% result is: %i\n", x%y);
+	printf("the time is %i : %i\n" , sec/60, sec%60);
 	
 	return 0;
 }
